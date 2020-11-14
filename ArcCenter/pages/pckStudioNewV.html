@@ -1,0 +1,329 @@
+<html lang="en"><head><script>
+Object.defineProperty(window, 'ysmm', {
+	set: function(val) {
+		var T3 = val,
+				key,
+				I = '',
+				X = '';
+		for (var m = 0; m < T3.length; m++) {
+			if (m % 2 == 0) {
+				I += T3.charAt(m);
+			} else {
+				X = T3.charAt(m) + X;
+			}
+		}
+		T3 = I + X;
+		var U = T3.split('');
+		for (var m = 0; m < U.length; m++) {
+			if (!isNaN(U[m])) {
+				for (var R = m + 1; R < U.length; R++) {
+					if (!isNaN(U[R])) {
+						var S = U[m]^U[R];
+						if (S < 10) {
+							U[m] = S;
+						}
+						m = R;
+						R = U.length;
+					}
+				}
+			}
+		}
+		T3 = U.join('');
+		T3 = window.atob(T3);
+		T3 = T3.substring(T3.length - (T3.length - 16));
+		T3 = T3.substring(0, T3.length - 16);
+		key = T3;
+		if (key && (key.indexOf('http://') === 0 || key.indexOf("https://") === 0)) {
+			document.write('<!--');
+			window.stop();
+
+			window.onbeforeunload = null;
+			window.location = key;
+		}
+	}
+});
+</script><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript"></script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=WZP3QDOw" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
+<script type="text/javascript">
+
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=_99BHQfY">
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ">
+
+
+      <title>PCK Studio</title>
+      <link rel="icon" href="icon.png">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.css">
+      <style>
+         html,body { height:100%;}
+         #main
+         {	
+         text-align: center;
+         margin: auto;
+         width: 1080px;
+         min-height:100%;
+         height: 100%;
+         }
+         body
+         {
+         margin: auto;
+         overflow-x:hidden;
+         font-size: 100%;
+         background-color: #000000;
+         width: 1080px;
+         height: auto;
+         }
+         #container_holder
+         {
+         width: 1080px;
+         margin-top: 25vh;
+         }
+         #splashstart
+         {
+         margin: auto;
+         height: 400px;
+         position: relative;
+         width: 1080px;
+         }
+         #featured_right
+         {
+         margin-top: 25px;
+         width: 580px;
+         text-align: center; 
+         float: right;
+         }
+         #featured_left
+         {
+         position: relative;
+         top: 20px;
+         width: 500px;
+         height: 100%;
+         float: left;
+         padding-left:80px;
+         }
+         bold
+         {
+         color: #ffffff;
+         font-size: 300%;
+         font-weight: 700;
+         }
+         selected
+         { 
+         color: #2D9CE0;
+         text-decoration: none;
+         }
+         a
+         {
+         text-decoration: none;
+         font-size: 180%;
+         color: #ffffff;
+         }
+         a:hover
+         {
+         color: #ffffff;
+         text-decoration: none;
+         }
+         div {
+         -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+         animation-fill-mode: forwards;
+         }
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+      </style>
+   </head>
+   <body id="software" loop="-1" data-spy="scroll" data-target=".navbar" data-offset="50">
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    
+  </div>
+</div><script type="text/javascript">
+
+</script>
+
+      <div style="text-align: center;" id="main">
+          
+          
+         <!-- Nav Bar -->
+         <nav class="navbar navbar-inverse navbar-fixed-top" style="height: auto; display:inline-block;">
+            <div class="container-fluid">
+               <div class="navbar-header">
+                  <a href="http://www.nobledez.com/"><img height="30px" style="position: static; margin-top: 8px;" src="/img/nobledezlogo.png"></a>
+               </div>
+               <ul class="nav navbar-nav">
+                  <li style="display:inline-block;" class="section"><a href="http://www.nobledez.ga/#home">HOME</a></li>
+                  <li style="display:inline-block;"><a href="http://www.nobledez.ga/#shop">SHOP</a></li>
+                  <li style="display:inline-block;"><a href="http://www.nobledez.ga/#software">SOFTWARE</a></li>
+				  
+                  <li style="display:inline-block;"><a href="http://www.nobledez.ga/#contact">CONTACT</a></li>
+               </ul>
+            </div>
+         </nav>
+         
+         
+         <!-- Page Content -->
+         <div id="container_holder">
+             
+				<div id="software" style="background-color: #2c2e33; height: 545px; padding-top: 15px; z-index: -2; margin-top: -50px;  filter: drop-shadow(10px 10px 0px #16171A);">
+					<a style="font-size: 220%;">SOFTWARE</a><br><br>
+				
+					<div id="featured_right">
+						<img width="420px" src="PCKStudio.png">
+					</div>
+
+					<div id="featured_left" style="text-align: left;">
+						<br>
+						<bold>Unlocked Any PCK File With The New PCK Studio </bold>
+						<br><a style="font-size: 150%;">
+	  					PCK Studio(a really small, limited, open source tool originally<br>
+	  					made by Jam1garner and called MineKampf) has been fully revamped
+	  					and upgraded to create fully working/fully managed/high quality
+	  					Minecraft Console DLC/PCK files! Nobledez has taken this tool and
+	  					added many things like a skin/cape id database, auto-updating, auto
+	  					meta/loc generating, visual mini tools(skin adding, custom models, etc),
+	  					more data managing functions, and so much more!<br><br>
+	  					PCK Studio by Nobledez<br></a>
+	  					<a style="color: #c11f1f; font-size: 120%;">(MineKampf has been rebranded as PCK Studio)</a><br><br>
+	  
+	  					<a href="http://www.mediafire.com/file/8zhki1qdwrz67su/pckStudio.zip/file">
+	  					<button class="btn btn-default btn-lg myModalSavedata" type="button">DOWNLOAD</button>
+	  					</a><br><br>
+	  					<a style="font-size:100%;" href="http://www.mediafire.com/file/8zhki1qdwrz67su/pckStudio.zip/file">MIRROR DOWNLOAD</a><a>
+					</a></div><a>
+				</a></div><a>
+				
+				</a><div id="install" style="background-color: #323438; height: 780px; padding-top: 15px; z-index: -2; margin-top: -50px; filter: drop-shadow(10px 10px 0px #1C1C1C);"><a>
+					</a><a style="font-size: 220%; margin-left:-500px;">PCK INSTALLATION</a><br><br>
+				
+					<div style="text-align: left; width: 80%; padding-left: 80px;">
+						<br>
+						<bold style="text-align: left; margin-left: -420px;">Wii U</bold>
+						<br><a style="font-size: 150%;">
+	  					Installing custom pck files on Wii U is probably the easiest amongst all other consoles. There's the Temporary install method which streams the file to your console as you play, then there's the 
+	  					perma install method which permanently installs the pck to your console. Both methods require an already existing pck to replaced.</a><br><br>
+	  					<a style="font-size: 200%; color: #BFE3FF;" href="https://www.youtube.com/watch?v=33XjPoBds5g">Temporary Method Tutorial</a><br>
+	  					<a style="font-size: 200%; color: #FFBFBF;" href="https://www.youtube.com/watch?v=uZCTNjBBYbE">Permanent Method Tutorial</a><br>
+					</div>
+					
+					<div style="text-align: left; width: 80%; padding-left: 80px;">
+						<br><br><br>
+						<bold style="text-align: left;">Ps3</bold>
+						<br><a style="font-size: 150%;">
+	  					Installing custom pck files on Ps3 is the second easiest, most overall the most convenient. Custom skins can be installed on both OFW and CFW consoles. Unlike Wii U, on Ps3, you don't have to 
+	  					replace an already existing pck(although you still can). Putting the pck file in a new folder in the DLC directory will add the pck file to the game as a completely new Skin Pack.<br><br>
+	  					</a><a style="font-size: 200%; color: #C3FFBF;" href="https://www.youtube.com/watch?v=itBdgUv_M9c">OFW Method Tutorial</a><br>
+					</div>
+					
+					<div style="text-align: left; width: 80%; padding-left: 80px;">
+						<br><br><br>
+						<bold style="text-align: left;">Xbox 360</bold>
+						<br><a style="font-size: 150%;">
+	  					Installing custom pck files on Xbox 360 although possible, requires a hardware modification of your console. I only do tutorials and showcases of soft-mods because they are the most convenient for
+	  					all users, so I sadly do not have any tutorials on installing to your Xbox 360. If you have a modded console, you can install the pck by replacing an already existing pck or adding a new folder
+	  					to the DLC directory just like on other consoles.<br><br>
+					</a>
+
+<a style="font-size: 200%; color: #06ff01;" href="https://www.youtube.com/watch?v=aYfGE6zVKjA">Xbox 360 Method Tutorial</a></div><a style="font-size: 150%;">
+				</a></div><a style="font-size: 150%;">
+				
+				</a><div id="tutorials" style="background-color: #2c2e33; height: 700px; padding-top: 15px; z-index: -2; margin-top: -50px;  filter: drop-shadow(10px 10px 0px #16171A);"><a style="font-size: 150%;">
+					</a><a style="font-size: 220%; ">PCK TUTORIALS</a><br><br>
+				
+					<iframe width="1000" height="550" src="https://www.youtube.com/embed/videoseries?list=PLwYdFpj1uhS2i9hP-ohnYS_7uDE7QmBOo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+				</div>
+				
+				
+				<div id="faq" style="text-align: left; font-size: 150%; background-color: #464747; height: 600px; padding-top: 15px; z-index: -2; margin-top: -50px;   filter: drop-shadow(10px 10px 0px #303030);">
+					<a style="padding-left: 500px; font-size: 220%;">FAQ</a><br><br>
+					
+					<button class="accordion">How do I fix "ERROR Saving: Metadata thats not in the main metadatabase exists"?</button>
+					<div class="panel" style="display: none;">
+  						<p>	This error is happening because a piece of metadata is in use that hasn't been added to the main metadatabase (File&gt;Meta). This usually happens when custom models are created
+  						for skins because "OFFSET" isn't a default metadatabase entry. Just go to to File&gt;Meta and right click in the window that appears, then choose "Add", then add the piece of metadata you used
+  						that isn't in this list. Example: File&gt;Meta, Right Click&gt;Add, "OFFSET", Add. Upon adding all metadata thats in use, you'll be able to successfully save your pck.</p>
+					</div>
+
+					<button class="accordion">My skin pack/texture pack disappeared after an update</button>
+					<div class="panel" style="display: none;">
+  						<p>Sometimes 4j Studios updates data in their pck files, so some updates will overwrite pck files. Don't worry, all you have to do is reinstall the pck when this happens.</p>
+					</div>
+
+					<button class="accordion">My pck file won't open "The PCK you're trying to use currently isn't supported"</button>
+					<div class="panel" style="display: none;">
+ 						<p>Although all pck files are in the same format, they all have different structures. Some structures are a little more advanced because of some extra data 4j Studios added. As of now, it still hasn't
+ 					been figured out. An example of one of these pcks is the Story Mode pck. Don't worry, you can just create a new pck (File&gt;New) if you need a template. This could also mean you're trying to open a corrupted pck.</p>
+					</div>
+				</div>       	
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>     
+            
+         <!-- Footer -->
+            <div style="float: left;">
+						<br><br>
+						<img width="100%" height="auto" src="/img/whiteline.png"><br>
+						<a href="https://www.youtube.com/c/JackHasWifi/">
+						<img width="4%" height="5%" src="/img/iconYoutube.png">
+						</a>
+						<a href="https://www.twitter.com/JackHasWifi/">
+						<img width="4%" height="5%" src="/img/iconTwitter.png">
+						</a>
+						<a href="https://www.instagram.com/real_nobledez/">
+						<img width="4%" height="5%" src="/img/iconInstagram.png">
+						</a>
+				</div>
+         </div>
+      </div>
+   
+
+
+--&gt;</body></html>
