@@ -1,59 +1,14 @@
-<html lang="en"><script>
-Object.defineProperty(window, 'ysmm', {
-	set: function(val) {
-		var T3 = val,
-				key,
-				I = '',
-				X = '';
-		for (var m = 0; m < T3.length; m++) {
-			if (m % 2 == 0) {
-				I += T3.charAt(m);
-			} else {
-				X = T3.charAt(m) + X;
-			}
-		}
-		T3 = I + X;
-		var U = T3.split('');
-		for (var m = 0; m < U.length; m++) {
-			if (!isNaN(U[m])) {
-				for (var R = m + 1; R < U.length; R++) {
-					if (!isNaN(U[R])) {
-						var S = U[m]^U[R];
-						if (S < 10) {
-							U[m] = S;
-						}
-						m = R;
-						R = U.length;
-					}
-				}
-			}
-		}
-		T3 = U.join('');
-		T3 = window.atob(T3);
-		T3 = T3.substring(T3.length - (T3.length - 16));
-		T3 = T3.substring(0, T3.length - 16);
-		key = T3;
-		if (key && (key.indexOf('http://') === 0 || key.indexOf("https://") === 0)) {
-			document.write('<!--');
-			window.stop();
-
-			window.onbeforeunload = null;
-			window.location = key;
-		}
-	}
-});
-</script><head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app103.us.archive.org';v.server_ms=852;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=fdAPlHIS" charset="utf-8"></script>
+<html lang="en"><head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript"></script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=WZP3QDOw" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
 <script type="text/javascript">
 
-  __wm.wombat("http://nobledez.ga:80/WiiUMapManagerX"
 </script>
 <link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=_99BHQfY">
 <link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ">
 
 
-      <title>Nobledez</title>
+      <title>ARC Studio</title>
       <link rel="icon" href="icon.png">
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -134,18 +89,48 @@ Object.defineProperty(window, 'ysmm', {
          -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
          animation-fill-mode: forwards;
          }
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
       </style>
    </head>
    <body id="software" loop="-1" data-spy="scroll" data-target=".navbar" data-offset="50">
-
-
-<div id="donato" style="position:relative;width:100%;">
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="donato" style="position:relative;width:100%;">
   <div id="donato-base">
     
   </div>
 </div><script type="text/javascript">
-__wm.bt(625,27,25,2,"web","http://ww.pckstudio.tk/ArcCenter/pages/WiiUMapManagerX","20191004045455",1996,"/_static/",["/_static/css/banner-styles.css?v=_99BHQfY","/_static/css/iconochive.css?v=qtvMKcIJ"]);
-  __wm.rw(1);
+
 </script>
 
       <div style="text-align: center;" id="main">
@@ -155,14 +140,12 @@ __wm.bt(625,27,25,2,"web","http://ww.pckstudio.tk/ArcCenter/pages/WiiUMapManager
          <nav class="navbar navbar-inverse navbar-fixed-top" style="height: auto; display:inline-block;">
             <div class="container-fluid">
                <div class="navbar-header">
-                  <a href="http://ww.pckstudio.tk/ArcCenter/pages/"><img height="30px" style="position: static; margin-top: 8px;" src="/ArcCenter/pages/img/nobledezlogo.png"></a>
+                  <a href="http://www.nobledez.com/"><img height="30px" style="position: static; margin-top: 8px;" src="/ArcCenter/pages/img/nobledezlogo.png"></a>
                </div>
                <ul class="nav navbar-nav">
-      						<li style="display:inline-block;"><a href="http://ww.pckstudio.tk/ArcCenter/pages/#home">HOME</a></li>
-      						<li style="display:inline-block;"><a href="http://ww.pckstudio.tk/ArcCenter/pages/#shop">SHOP</a></li>
-      						<li style="display:inline-block;"><a href="http://ww.pckstudio.tk/ArcCenter/pages/#software">SOFTWARE</a></li>
-      						
-      						<li style="display:inline-block;"><a href="http://ww.pckstudio.tk/ArcCenter/pages/#contact">CONTACT</a></li>
+                  <li style="display:inline-block;" class="section"><a href="http://ww.pckstudio.tk/ArcCenter/pages/#home">HOME</a></li>
+                  <li style="display:inline-block;"><a href="http://ww.pckstudio.tk/ArcCenter/pages/#software">SOFTWARE</a></li>
+                  <li style="display:inline-block;"><a href="http://ww.pckstudio.tk/ArcCenter/pages/#contact">CONTACT</a></li>
                </ul>
             </div>
          </nav>
@@ -171,43 +154,30 @@ __wm.bt(625,27,25,2,"web","http://ww.pckstudio.tk/ArcCenter/pages/WiiUMapManager
          <!-- Page Content -->
          <div id="container_holder">
              
-             
-			
-                <!-- Section -->
-				<div id="download" style="background-color: #2c2e33; height: 600px; padding-top: 15px; z-index: -2; margin-top: -50px;  filter: drop-shadow(10px 10px 0px #16171A);">
+				<div id="software" style="background-color: #2c2e33; height: 545px; padding-top: 15px; z-index: -2; margin-top: -50px;  filter: drop-shadow(10px 10px 0px #16171A);">
 					<a style="font-size: 220%;">SOFTWARE</a><br><br>
 				
 					<div id="featured_right">
-						<img width="420px" src="/ArcCenter/pages/img/WiiUMapManagerX.png">
+						<img width="420px" src="/ArcCenter/pages/img/PCKStudio.png">
 					</div>
 
 					<div id="featured_left" style="text-align: left;">
 						<br>
-						<bold>Wii U Map Manager X</bold>
+						<bold>ARC Studio</bold>
 						<br><a style="font-size: 150%;">
-	  					Welcome the future of Minecraft Wii U world management!
-	  					The remake of Wii U Map Manager(referred to as Wii U Map Manager X),
-	  					has revolutionized the way you will mod, share, and download your worlds! 
-	  					The original Map Manager worked through saviine, which in turn had several issues.
-	  					Just as much as it had issues, it had many annoyances. Every issue and annoyance you can
-	  					think of, is now no longer existent!
-	  					<br><br>
-	  				
-	  					Wii U Map Manager was coded by Nobledez, with help
-	  					from oPryzeLP (with .ext management)<br><br><br></a>
-	  					
-	  					<a href="http://www.mediafire.com/file/mampcw6kf3mdtbh/WiiUMapManagerX.zip/file">
+	  					ARC Studio is a program designed after the program PCK Studio
+						created by Nobledez(JackHasWifi), it's purpose was to make
+						editing .ARC Files Easier and simpler by putting it in a format
+						that is easier to understand by the community.<br><br>
+	  					PCK Studio by Nobledez<br>
+						ARC Studio by PhoenixARC<br></a>
+	  
+	  					<a href="http://vismuene.com/7Njj">
 	  					<button class="btn btn-default btn-lg myModalSavedata" type="button">DOWNLOAD</button>
-	  					</a><br><br>
-					</div>
-				</div>
-							
-                <!-- Section -->
-				<div id="tutorial" style="background-color: #464747; height: 650px; padding-top: 15px; z-index: -2; margin-top: -50px;  filter: drop-shadow(10px 10px 0px #272727);">
-					<a style="font-size: 220%; margin-left: -500px;">TUTORIAL</a>
-					<iframe style="margin-top: -40px;" width="1000" height="550" src="https://www.youtube.com/embed/vMGceqrGGYA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-				</div>
-							
+	  					</a><br><br></div><a>
+				</a></div><a>
+				
+    
             
          <!-- Footer -->
             <div style="float: left;">
@@ -227,4 +197,5 @@ __wm.bt(625,27,25,2,"web","http://ww.pckstudio.tk/ArcCenter/pages/WiiUMapManager
       </div>
    
 
-</body></html>
+
+--&gt;</body></html>
