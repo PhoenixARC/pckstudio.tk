@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feed BaseUrl="http://www.pckstudio.tk/studio/ARC/update/">
+  <Tasks>
+	<FileUpdateTask localPath="/NBTEditor/NBTExplorer.exe">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/NBTEditor/NBTModel.dll">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/NBTEditor/Substrate.dll">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/BinkMan/BinkMan.exe">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/BinkMan/files.txt">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/ARCUpdater.exe">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/ARC Studio.exe">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/url.txt">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+  </Tasks>
+</Feed>

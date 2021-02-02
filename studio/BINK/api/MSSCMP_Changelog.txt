@@ -1,0 +1,4 @@
+1.1
+ - BINK Studio is born!
+ - Opens .msscmp files!
+ - Converts and opens .binka files!

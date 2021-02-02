@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feed BaseUrl="http://www.pckstudio.tk/studio/PCK/update/">
+  <Tasks>
+	<FileUpdateTask localPath="/fileIcons/ARROW.png">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/fileIcons/BINKA ICON.png">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/fileIcons/IMAGE ICON.png">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/fileIcons/LOC ICON.png">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/fileIcons/PCK ICON.png">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/fileIcons/Thumbs.db">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/fileIcons/ZUnknown.png">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/ja/PCK Studio.resources.dll">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/templates/UntitledSkinPCK.pck">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/Mojangles.ttf">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/nobleUpdater.exe">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/PCK Studio.exe">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/settings.ini">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/ver.txt">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+  </Tasks>
+</Feed>

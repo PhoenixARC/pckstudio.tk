@@ -1,0 +1,11 @@
+4.7
+ - Revamped website structure
+ - new api for PCK Studio
+ [starting this update, only the update feature will be avaliable to older versions]
+
+4.6
+ - Added Password Hash method
+ - Added 'Add Password' button
+
+4.5
+ - Fixed bug opening template PCKs
