@@ -1,3 +1,6 @@
+4.8
+ - Fixed Error when starting PCK Center
+
 4.7
  - Revamped website structure
  - new api for PCK Studio
