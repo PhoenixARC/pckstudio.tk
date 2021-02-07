@@ -1,3 +1,7 @@
+4.9
+ - Fixed error updating studio
+ [May require re-download]
+
 4.8
  - Fixed Error when starting PCK Center
 
