@@ -1,3 +1,7 @@
+5.0
+ - Fixed PCKCenter 'Out of memory' exception
+ - Changed String-based versioning to Float-based
+
 4.9
  - Fixed error updating studio
  [May require re-download]
