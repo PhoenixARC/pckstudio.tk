@@ -24,6 +24,16 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
 
+		<style>
+		#hit-counter {
+  font-family: serif;
+  font-size: 15px;
+  background-color: #000;
+  color: greenyellow;  
+  padding: 3px 6px;     
+}
+		</style>
+		
 <script>
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -39,6 +49,24 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+	const hitCounter = document.getElementById("hit-counter");
+hitCounter.style.display = "none";
+	
+	const db = firebase.database().ref("PckDownloads");
+db.on("value", (snapshot) => {
+  hitCounter.textContent = snapshot.val();  
+});
+	
+	db.transaction(
+  (PckDownloads) => PckDownloads + 1,
+  (error) => {
+    if (error) {
+      console.log(error);
+    } else {
+      hitCounter.style.display = "inline-block";
+    }
+  }
+);
 </script>
 		
 		
