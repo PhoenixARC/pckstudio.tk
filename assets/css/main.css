@@ -20,6 +20,39 @@
 
 @-ms-viewport {
   width: device-width; }
+  
+  
+  
+.btn-primary,.btn-danger{
+	font-size: 5em;
+	font-weight: 300;
+	padding: 0 25px;
+	line-height: 1em;
+}
+
+.reset{
+	margin-top: 15px;
+	font-size: 3em;
+}
+
+.btn:focus{
+	outline: none;
+}
+
+@media only screen and (max-width:768px){
+	.btn-primary,.btn-danger{
+		font-size: 7em;
+		padding: 0 30px;
+	}
+}
+  
+  
+  
+  
+  
+  
+  
+  
 body {
   -ms-overflow-style: scrollbar; }
 

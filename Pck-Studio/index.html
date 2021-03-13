@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="/assets/css/main.css" />
 		<script data-ad-client="ca-pub-6545890012398480" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" ng-controller="MainCtrl">
 
 		
 		<!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -24,16 +24,6 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
 
-		<style>
-		#hit-counter {
-  font-family: serif;
-  font-size: 15px;
-  background-color: #000;
-  color: greenyellow;  
-  padding: 3px 6px;     
-}
-		</style>
-		
 <script>
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -50,7 +40,6 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 	const hitCounter = document.getElementById("hit-counter");
-hitCounter.style.display = "none";
 	
 	const db = firebase.database().ref("PckDownloads");
 db.on("value", (snapshot) => {
@@ -112,7 +101,25 @@ db.on("value", (snapshot) => {
 						<p>Step into a new world, a new world of your own design. with PCK Studio you can have complete control of not just your skin, but weather you have a cape, your player model, do you want to download loads of community-made skin packs? well now you can with my PCK Center! by downloading PCK studio you aren't just downloading some random tool, you're setting in motion the next chapter of your life! a chapter filled with discovery, research, and enjoyment with friends and foes alike! no longer will you be constrained to the confines set by 4J Studios, but you will be forging a path of your own creation, one in which you hold the power to do as you wish.</p>
 						<hr />
 						
-    <div id="hit-counter"></div>
+						
+
+
+<div class="container">
+	<div class="page-header">
+	  <h1>Lentilles</h1>
+	</div>
+	<div class="center-block">
+		
+		<h2>{{counter.total}}</h2>
+		<button type="button" class="btn btn-primary" ng-click="addDay()">+</button>
+		<button type="button" class="btn btn-danger" ng-click="removeDay()">-</button>
+		<div>
+			<button type="button" class="btn btn-default reset" ng-click="resetStats()">Reset</button>
+		</div>
+
+	</div>
+</div>	
+
 						<!-- The grid: four columns -->
 						<div class="row">
  						 <div class="column">
