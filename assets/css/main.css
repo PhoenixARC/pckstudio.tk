@@ -22,28 +22,12 @@
   width: device-width; }
   
   
-  
-.btn-primary,.btn-danger{
-	font-size: 5em;
-	font-weight: 300;
-	padding: 0 25px;
-	line-height: 1em;
-}
-
-.reset{
-	margin-top: 15px;
-	font-size: 3em;
-}
-
-.btn:focus{
-	outline: none;
-}
-
-@media only screen and (max-width:768px){
-	.btn-primary,.btn-danger{
-		font-size: 7em;
-		padding: 0 30px;
-	}
+  #hit-counter {
+  font-family: serif;
+  font-size: 15px;
+  background-color: #000;
+  color: greenyellow;  
+  padding: 3px 6px;     
 }
   
   
