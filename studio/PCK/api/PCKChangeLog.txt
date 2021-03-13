@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 5.0
  -  Fixed PCKCenter 'Out of memory' exception
  -  Changed String-based versioning to Float-based
@@ -79,4 +80,87 @@ Update 2.3
  -  Few UI Improvements
 
 Update 2.3 (Non-Feature Update)
+=======
+5.0
+ -  Fixed PCKCenter 'Out of memory' exception
+ -  Changed String-based versioning to Float-based
+
+4.9
+ -  Fixed error updating studio
+ [May require re-download]
+
+4.8
+ -  Fixed Error when starting PCK Center
+
+4.7
+ -  Revamped website structure
+ -  new api for PCK Studio
+ [starting this update, only the update feature will be avaliable to older versions]
+
+4.6
+ -  Added Password Hash method
+ -  Added 'Add Password' button
+
+4.5
+ -  Fixed bug opening template PCKs
+ -  Fixed bug saving PCKs
+
+3.7
+ - Project picked up and restored by PhoenixARC
+
+3.6
+ - Added Installation options to PCK Center Collection open dialog
+ - Added Wii U Perma Installer
+ - Fixed more bugs
+
+3.5b
+ - Fixed minor bedrock conversion bug
+
+3.5a
+ - Model generator bugs fixed
+
+3.5
+ - Revamped resizable Main and Model Generator forms
+
+3.4
+ - Fully polished MOST of the model generator
+ - "Convert to bedrock" now only makes the mcpack
+ - Fixed a few things
+
+3.3e
+ - Fixed Model Generator throwing error when creating new part
+
+3.3d
+ - Fixed Model Generator crashing when minimized
+ - Fixed more bugs
+
+Update 2.8b
+ -  Fixed a few bugs from 2.8
+Update 2.8
+ -  Advanced PCK pck data stucture view
+ -  Node rearrangement
+ -  Armor management in Model Generator
+ -  Fixed several display bugs
+ -  Added auto LOC detection
+ -  Added auto PCK skin structuring
+ -  Folder management
+ -  Better error handling
+ -  Image size display
+ -  Fixed cape typing
+ -  Organized context menus
+ -  Added more icons to context menu
+
+Update 2.7
+ -  Minor UI Fixes
+
+Update 2.4
+ -  Model Generator
+ -  Few UI Improvements
+
+Update 2.3
+ -  Fully Fixed Cape Adding
+ -  Few UI Improvements
+
+Update 2.3 (Non-Feature Update)
+>>>>>>> Stashed changes
  -  Rebranded Minekampf as PCK Studio
