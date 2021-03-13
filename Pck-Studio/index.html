@@ -39,31 +39,7 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-	const hitCounter = document.getElementById("hit-counter");
-	
-	const db = firebase.database().ref("PckDownloads");
-db.on("value", (snapshot) => {
-  hitCounter.textContent = snapshot.val();  
-});
-	
-	db.transaction(
-  (PckDownloads) => PckDownloads + 1,
-  (error) => {
-    if (error) {
-      console.log(error);
-    } else {
-      hitCounter.style.display = "inline-block";
-    }
-  }
-);
 </script>
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		
