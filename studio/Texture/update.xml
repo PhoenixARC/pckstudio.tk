@@ -11,5 +11,10 @@
 		<FileExistsCondition type="not" />
 	  </Conditions>
 	</FileUpdateTask>
+	<FileUpdateTask localPath="/TextureData.zip">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
   </Tasks>
 </Feed>
