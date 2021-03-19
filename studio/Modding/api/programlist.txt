@@ -1,0 +1,10 @@
+PCK Studio;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;6.1MB
+ARC Studio;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/ARC/update.xml;2MB
+MSSCMP Studio;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/BINK/update.xml;12.5MB
+Texture builder tool;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/Texture/update.xml;103KB
+MCCToolchest;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;0B
+Universal Minecraft Editor;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;0B
+Paint.net;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;0B
+HxD;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;0B
+FileZilla;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;0B
+Nopepad++;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;0B
