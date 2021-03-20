@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Feed BaseUrl="http://www.pckstudio.tk/studio/Texture/update">
   <Tasks>
-	<FileUpdateTask localPath="/MinecraftTextureBuilder.exe">
+	<FileUpdateTask localPath="/Texture Builder Tool.exe">
 	  <Conditions>
 		<FileExistsCondition type="not" />
 	  </Conditions>

@@ -1,0 +1,7 @@
+C:\Program Files (x86)\HxD\changelog.txt
+C:\Program Files (x86)\HxD\f.txt
+C:\Program Files (x86)\HxD\HxD.exe
+C:\Program Files (x86)\HxD\license.txt
+C:\Program Files (x86)\HxD\readme.txt
+C:\Program Files (x86)\HxD\unins000.dat
+C:\Program Files (x86)\HxD\unins000.exe

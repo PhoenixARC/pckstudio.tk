@@ -1,10 +1,10 @@
-PCK Studio;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;6.1MB
-ARC Studio;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/ARC/update.xml;2MB
-MSSCMP Studio;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/BINK/update.xml;12.5MB
-Texture builder tool;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/Texture/update.xml;103KB
-MCCToolchest;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;0B
-Universal Minecraft Editor;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;0B
-Paint.net;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;0B
-HxD;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;0B
-FileZilla;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;0B
-Nopepad++;https://raw.githubusercontent.com/PhoenixARC/pckstudio.tk/main/studio/PCK/update.xml;0B
+PCK Studio;http://localhost/studio/PCK/update.xml;6.1MB
+ARC Studio;http://localhost/studio/ARC/update.xml;2MB
+MSSCMP Studio;http://localhost/studio/BINK/update.xml;12.5MB
+Texture builder tool;http://localhost/studio/Texture/update.xml;103KB
+MCCToolchest;http://localhost/studio/Modding/api/Files/MCCToolchest/update.xml;16MB
+Universal Minecraft Editor;http://localhost/studio/Modding/api/Files/Universal Minecraft Editor/update.xml;30.7MB
+Paint.net;http://localhost/studio/Modding/api/Files/Paint.net/update.xml;121MB
+HxD;http://localhost/studio/Modding/api/Files/HxD/update.xml;2.3MB
+FileZilla;http://localhost/studio/Modding/api/Files/FileZilla/update.xml;36.2MB
+Notepad++;http://localhost/studio/Modding/api/Files/Notepad++/update.xml;10MB
