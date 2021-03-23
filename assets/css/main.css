@@ -1,5 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
 /*
 	Industrious by TEMPLATED
 	templated.co @templatedco
@@ -513,6 +515,8 @@ input[type="url"] {
   height: 3.25rem; }
 
 select {
+  width: 200px;
+  align:left;
   background-size: 1.25rem;
   background-repeat: no-repeat;
   background-position: calc(100% - 1rem) center;

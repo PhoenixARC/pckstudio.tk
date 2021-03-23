@@ -45,27 +45,31 @@
 		
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="/">Apotheosis</a>
+				<a class="logo" href="">Apotheosis</a>
+					<select name="locale" id="locale">
+						<option value="en">english</option>
+        				<option value="jp">日本語</option>
+      				</select>
 				<nav>
-					<a href="#menu">Menu</a>
+					<a id="mnu" href="#menu">Menu</a>
 				</nav>
 			</header>
 
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="/">Home</a></li>
-					<li><a href="/Pck-Studio">PCK Studio</a></li>
-					<li><a href="/Arc-Studio">ARC Studio</a></li>
-					<li><a href="/Msscmp-Studio">MSSCMP Studio</a></li>
-					<li><a href="/Texture-tool">Texture Builder Tool</a></li>
-					<li><a href="/Reverse-engineering-tut">Reverse Engineering</a></li>
+					<li><a id="home" href="/">Home</a></li>
+					<li><a id="pckstudio" href="/Pck-Studio">PCK Studio</a></li>
+					<li><a id="arcstudio" href="/Arc-Studio">ARC Studio</a></li>
+					<li><a id="msscmpstudio" href="/Msscmp-Studio">MSSCMP Studio</a></li>
+					<li><a id="texturetool" href="/Texture-tool">Texture Builder Tool</a></li>
+					<li><a id="Reverseengineeringtut" href="/Reverse-engineering-tut">Reverse Engineering</a></li>
 				</ul>
 			</nav>
 
 		<!-- Heading -->
 			<div id="heading" >
-				<h1>PCK Studio</h1>
+				<h1 id="pckstudio1">PCK Studio</h1>
 			</div>
 
 		<!-- Main -->
@@ -73,9 +77,9 @@
 				<div class="inner">
 					<div class="content">
 						<header>
-							<h2>PCK Studio</h2>
+							<h2 id="pckstudio2">PCK Studio</h2>
 						</header>
-						<p>Step into a new world, a new world of your own design. with PCK Studio you can have complete control of not just your skin, but weather you have a cape, your player model, do you want to download loads of community-made skin packs? well now you can with my PCK Center! by downloading PCK studio you aren't just downloading some random tool, you're setting in motion the next chapter of your life! a chapter filled with discovery, research, and enjoyment with friends and foes alike! no longer will you be constrained to the confines set by 4J Studios, but you will be forging a path of your own creation, one in which you hold the power to do as you wish.</p>
+						<p id="pckstudio2desc">Step into a new world, a new world of your own design. with PCK Studio you can have complete control of not just your skin, but weather you have a cape, your player model, do you want to download loads of community-made skin packs? well now you can with my PCK Center! by downloading PCK studio you aren't just downloading some random tool, you're setting in motion the next chapter of your life! a chapter filled with discovery, research, and enjoyment with friends and foes alike! no longer will you be constrained to the confines set by 4J Studios, but you will be forging a path of your own creation, one in which you hold the power to do as you wish.</p>
 						<hr />
 						
 						
@@ -131,7 +135,7 @@
   <div id="imgtext"></div>
 </div>
 						<hr />
-						<center><a href="[REDACTED]"  class="button alt disabled">SOURCE</a> <a href="/Download/PCK.zip"  class="button special">DOWNLOAD</a></center>
+						<center><a href="[REDACTED]" id="source" class="button alt disabled">SOURCE</a> <a href="/Download/PCK.zip" id="download" class="button special">DOWNLOAD</a></center>
 					</div>
 				</div>
 			</section>
@@ -141,21 +145,21 @@
 				<div class="inner">
 					<div class="content">
 						<section>
-							<h3>About</h3>
-							<p>Throughout my years as a Modder for Minecraft on the legacy consoles, I've learned much about the game itself as well as the consoles it runs on, because of this, combined with the fact that many creators have stopped modding either on legacy consoles, or completely, I have made it my mission to make tools that are both open source, and easy to use, to allow anyone, no matter how new, to dive in head first and make incredible mods.</p>
+							<h3 id="about">About</h3>
+							<p id="aboutdesc">Throughout my years as a Modder for Minecraft on the legacy consoles, I've learned much about the game itself as well as the consoles it runs on, because of this, combined with the fact that many creators have stopped modding either on legacy consoles, or completely, I have made it my mission to make tools that are both open source, and easy to use, to allow anyone, no matter how new, to dive in head first and make incredible mods.</p>
 						</section>
 						<section>
 							<h4>Pages</h4>
 							<ul class="alt">
-								<li><a href="/Pck-Studio">PCK Studio</a></li>
-								<li><a href="/Arc-Studio">ARC Studio</a></li>
-								<li><a href="/Msscmp-Studio">MSSCMP Studio</a></li>
-					<li><a href="/Texture-tool">Texture Builder Tool</a></li>
-								<li><a href="/Reverse-engineering-tut">Introduction to reverse engineering.</a></li>
+								<li><a id="pckstudio3" href="/Pck-Studio">PCK Studio</a></li>
+								<li><a id="arcstudio3" href="/Arc-Studio">ARC Studio</a></li>
+								<li><a id="msscmpstudio3" href="/Msscmp-Studio">MSSCMP Studio</a></li>
+								<li><a id="texturetool3" href="/Texture-tool">Texture Builder Tool</a></li>
+								<li><a id="Reverseengineeringtut2" href="/Reverse-engineering-tut">Introduction to reverse engineering.</a></li>
 							</ul>
 						</section>
 						<section>
-							<h4>Social Media</h4>
+							<h4 id="scocialmedia">Social Media</h4>
 							<ul class="plain">
 								<li><a href="https://twitter.com/PhoenixARC2"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
 								<li><a href="https://www.instagram.com/phoenixarc01/"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
@@ -165,19 +169,18 @@
 						</section>
 					</div>
 					<div class="copyright">
-						&copy; Untitled. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.
+						&copy; PCK Studio by PhoenixARC.
 					</div>
 				</div>
 			</footer>
 
 		<!-- Scripts -->
-			<script src="/assets/js/jquery.min.js"></script>
-			<script src="/assets/js/browser.min.js"></script>
-			<script src="/assets/js/breakpoints.min.js"></script>
-			<script src="/assets/js/util.js"></script>
-			<script src="/assets/js/main.js"></script>
-			<script src="/assets/js/imagegal.js"></script>
-			
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
+		<script src="/Pck-Studio/scriptPck.js"></script>
 	</body>
 </html>
