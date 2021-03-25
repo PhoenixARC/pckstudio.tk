@@ -1,4 +1,3 @@
- // For simplicity here all the locales are kept in this array. In real-life project the data can be fetched from a JSON object or DB.
       const localization = [
         {
           mnu: "Menu",
@@ -46,7 +45,6 @@
         },
       ];
 
-      // Select all the elements of the page for which we need localization. Here I do it manually, but you may think of a loop that could grab all the elements via their -data attributes and put them in separate variables
       const mnu = document.getElementById("mnu");
       const home = document.getElementById("home");
       const pckstudio = document.getElementById("pckstudio");
@@ -66,16 +64,13 @@
       const scocialmedia = document.getElementById("scocialmedia");
       const download = document.getElementById("download");
       const source = document.getElementById("source");
-      // Important  here I put all these elements into an array, so that later I could loop over it and apply the necessary language settings
       const textElements = [mnu, home, pckstudio, arcstudio, msscmpstudio, texturetool, arcstudio2, arcstudio1, Reverseengineeringtut, arcstudio2desc, about, aboutdesc, pckstudio3, arcstudio3, 
 	  msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, download, source];
 
 
 		console.log(document.getElementById("arcstudio2"));
-      // Selecting a 'switcher' element on a web page. In my case it is a <select> element with an id of 'locale'
       let local = document.getElementById("locale");
 
-      // Now let's react to the changes in <select> element and see which <option> has been chosen
       let currentLang = null;
       local.addEventListener("change", function () {
         switch (this.value) {
@@ -89,7 +84,6 @@
             currentLang = 0;
         }
 
-        // OK, so now let's loop over textElements and give relevant content to each element on the page
         textElements.forEach(function (el) {
           let prop = el.getAttribute("id");
           el.innerHTML = localization[currentLang][prop];
