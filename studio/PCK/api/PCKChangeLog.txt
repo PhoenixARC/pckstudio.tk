@@ -1,3 +1,10 @@
+5.2
+ -  Changed 'Minekampf' internal namespace to 'PckStudio'
+ -  Added contingency server in event of domain downage
+ -  Tweaked PCK File Processing
+ -  Added discord server link and dialogue
+ -  Added Discord RPC(RichPresenceClient)
+ 
 5.1
  -  Removed unused code(exe slightly lighter)
     [fixed updater may require redownload]
