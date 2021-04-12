@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feed BaseUrl="http://www.pckstudio.tk/studio/FUI/update/">
+  <Tasks>
+	<FileUpdateTask localPath="/FUI Studio.exe">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/updater.exe">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/change.log">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+  </Tasks>
+</Feed>

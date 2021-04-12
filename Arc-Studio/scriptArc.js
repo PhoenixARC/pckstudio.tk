@@ -4,6 +4,7 @@
           home: "Home",
           pckstudio: "PCK Studio",
           arcstudio: "ARC Studio",
+          fuistudio: "FUI Studio",
           msscmpstudio: "MSSCMP Studio",
           texturetool: "Texture Builder Tool",
           arcstudio1: "ARC Studio",
@@ -26,6 +27,7 @@
           home: "ホームホーム",
           pckstudio: "PCKスタジオ",
           arcstudio: "ARCスタジオ",
+          fuistudio: "FUIスタジオ",
           msscmpstudio: "MSSCMPスタジオ",
           texturetool: "テクスチャビルダーツール",
           arcstudio1: "ARCスタジオ",
@@ -49,6 +51,7 @@
       const home = document.getElementById("home");
       const pckstudio = document.getElementById("pckstudio");
       const arcstudio = document.getElementById("arcstudio");
+      const fuistudio = document.getElementById("fuistudio");
       const msscmpstudio = document.getElementById("msscmpstudio");
       const texturetool = document.getElementById("texturetool");
       const arcstudio2 = document.getElementById("arcstudio2");
@@ -64,7 +67,7 @@
       const scocialmedia = document.getElementById("scocialmedia");
       const download = document.getElementById("download");
       const source = document.getElementById("source");
-      const textElements = [mnu, home, pckstudio, arcstudio, msscmpstudio, texturetool, arcstudio2, arcstudio1, Reverseengineeringtut, arcstudio2desc, about, aboutdesc, pckstudio3, arcstudio3, 
+      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, arcstudio2, arcstudio1, Reverseengineeringtut, arcstudio2desc, about, aboutdesc, pckstudio3, arcstudio3, 
 	  msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, download, source];
 
 
