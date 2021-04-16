@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Feed BaseUrl="http://www.pckstudio.tk/studio/ARC/update/">
   <Tasks>
+	<FileUpdateTask localPath="/FUIEditor/FUI Studio.exe">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/FUIEditor/updater.exe">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
 	<FileUpdateTask localPath="/NBTEditor/NBTExplorer.exe">
 	  <Conditions>
 		<FileExistsCondition type="not" />
