@@ -6,6 +6,11 @@
 		<FileExistsCondition type="not" />
 	  </Conditions>
 	</FileUpdateTask>
+	<FileUpdateTask localPath="/FUIEditor/change.log">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
 	<FileUpdateTask localPath="/FUIEditor/updater.exe">
 	  <Conditions>
 		<FileExistsCondition type="not" />
