@@ -7,3 +7,8 @@
  - Added Font Viewer(double click)
  - Added optional manual reference loading(double click)
  - Added cascading reference loading(loads references of references)
+
+[27/04/2021] 1.2
+ - Added Elements
+ - Added Element Settings
+ - Additional debug flags
