@@ -34,6 +34,8 @@
           texturetool3: "Texture Builder Tool",
           Reverseengineeringtut2: "Introduction to reverse engineering.",
           scocialmedia: "Social Media",
+          devmessage: "Are you a developer? click here!",
+          joinButton: "Join Discord",
         },
         {
           mnu: "メニュー",
@@ -69,6 +71,8 @@
           texturetool3: "テクスチャビルダーツール",
           Reverseengineeringtut2: "リバースエンジニアリング入門。",
           scocialmedia: "ソーシャルメディア",
+          devmessage: "あなたは開発者ですか？ ここをクリック！",
+          joinButton: "Discordに参加する",
         },
       ];
 
@@ -106,8 +110,10 @@
       const texturetool3 = document.getElementById("texturetool3");
       const Reverseengineeringtut2 = document.getElementById("Reverseengineeringtut2");
       const scocialmedia = document.getElementById("scocialmedia");
+      const devmessage = document.getElementById("devmessage");
+      const joinButton = document.getElementById("joinButton");
       // Important  here I put all these elements into an array, so that later I could loop over it and apply the necessary language settings
-      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, pckstudio2, arcstudio2, msscmpstudio2, texturetool2, Reverseengineeringtut, description, softwareheader, softwareheader2, pckstudio2desc, arcstudio2desc, msscmpstudio2desc, msscmpstudio2desc2, msscmpstudio2desc3, texturetool2desc, development, developmentdesc, reviews, reviewex, about, aboutdesc, pckstudio3, arcstudio3, msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia];
+      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, pckstudio2, arcstudio2, msscmpstudio2, texturetool2, Reverseengineeringtut, description, softwareheader, softwareheader2, pckstudio2desc, arcstudio2desc, msscmpstudio2desc, msscmpstudio2desc2, msscmpstudio2desc3, texturetool2desc, development, developmentdesc, reviews, reviewex, about, aboutdesc, pckstudio3, arcstudio3, msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, devmessage, joinButton];
 
 
 		console.log(document.getElementById("mnu"));
