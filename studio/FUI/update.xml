@@ -1,4 +1,4 @@
-<?xml encoding="utf-8"?>
+<?xml ?>
 <Feed BaseUrl="http://www.pckstudio.tk/studio/FUI/update/">
   <Tasks>
 	<FileUpdateTask localPath="/studio/FUI/update/FUI Studio.exe">
