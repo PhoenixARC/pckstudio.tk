@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Feed BaseUrl="http://www.pckstudio.tk/studio/FUI/update/">
+<Feed BaseUrl="http://www.pckstudio.tk/">
   <Tasks>
-	<FileUpdateTask localPath="/studio/FUI/update/FUI Studio.exe">
+	<FileUpdateTask localPath="/FUI Studio.exe">
 	  <Conditions>
 		<FileExistsCondition type="not" />
 	  </Conditions>
 	</FileUpdateTask>
-	<FileUpdateTask localPath="/studio/FUI/update/updater.exe">
+	<FileUpdateTask localPath="/updater.exe">
 	  <Conditions>
 		<FileExistsCondition type="not" />
 	  </Conditions>
 	</FileUpdateTask>
-	<FileUpdateTask localPath="/studio/FUI/update/change.log">
+	<FileUpdateTask localPath="/change.log">
 	  <Conditions>
 		<FileExistsCondition type="not" />
 	  </Conditions>
