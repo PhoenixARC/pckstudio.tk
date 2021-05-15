@@ -1,4 +1,8 @@
-5.2
+5.3
+ -  Added localized changelogs
+ -  Added 3D skin viewer
+ 
+ 5.2
  -  Changed 'Minekampf' internal namespace to 'PckStudio'
  -  Added contingency server in event of domain downage
  -  Tweaked PCK File Processing
