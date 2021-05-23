@@ -1,4 +1,8 @@
-5.3
+5.4
+ -  Fixed Generated model not showing up
+ -  Fixed "view skin" button showing up for custom models
+ 
+ 5.3
  -  Added localized changelogs
  -  Added 3D skin viewer
  
