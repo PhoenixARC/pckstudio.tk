@@ -1,4 +1,7 @@
-5.4
+5.5
+ -  Added support for PS4/PSVita Packs
+ 
+ 5.4
  -  Fixed Generated model not showing up
  -  Fixed "view skin" button showing up for custom models
  
