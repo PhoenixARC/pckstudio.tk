@@ -73,7 +73,7 @@
       const filetypes = document.getElementById("filetypes");
       const download = document.getElementById("download");
       const source = document.getElementById("source");
-      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, arcstudio2, arcstudio1, coleditor, Reverseengineeringtut, arcstudio2desc, about, aboutdesc, pckstudio3, arcstudio3, 
+      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, arcstudio2, arcstudio1, coleditor, Reverseengineeringtut, about, aboutdesc, pckstudio3, arcstudio3, 
 	  msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, filetypes, download, source];
 
 
