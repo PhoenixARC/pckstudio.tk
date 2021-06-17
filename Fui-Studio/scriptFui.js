@@ -20,6 +20,7 @@
           fuistudio3: "FUI Studio",
           Reverseengineeringtut2: "Introduction to reverse engineering.",
           scocialmedia: "Social Media",
+		  filetypes: "File Types",
           download: "DOWNLOAD",
           source: "SOURCE",
         },
@@ -44,6 +45,7 @@
           fuistudio3: "FUIスタジオ",
           Reverseengineeringtut2: "リバースエンジニアリング入門。",
           scocialmedia: "ソーシャルメディア",
+		  filetypes: "ファイルタイプ",
           download: "ダウンロード",
           source: "ソース",
         },
@@ -67,10 +69,12 @@
       const texturetool3 = document.getElementById("texturetool3");
       const Reverseengineeringtut2 = document.getElementById("Reverseengineeringtut2");
       const scocialmedia = document.getElementById("scocialmedia");
+
+      const filetypes = document.getElementById("filetypes");
       const download = document.getElementById("download");
       const source = document.getElementById("source");
       const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, fuistudio2, fuistudio1, Reverseengineeringtut, about, aboutdesc, pckstudio3, arcstudio3, 
-	  msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, download, source];
+	  msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, filetypes, download, source];
 
 
       let local = document.getElementById("locale");

@@ -24,6 +24,7 @@
           texturetool3: "Texture Builder Tool",
           Reverseengineeringtut2: "Introduction to reverse engineering.",
           scocialmedia: "Social Media",
+		  filetypes: "File Types",
           download: "DOWNLOAD",
           source: "SOURCE",
         },
@@ -51,6 +52,7 @@
           texturetool3: "テクスチャビルダーツール",
           Reverseengineeringtut2: "リバースエンジニアリング入門。",
           scocialmedia: "ソーシャルメディア",
+		  filetypes: "ファイルタイプ",
           download: "ダウンロード",
           source: "ソース",
         },
@@ -80,11 +82,13 @@
       const texturetool3 = document.getElementById("texturetool3");
       const Reverseengineeringtut2 = document.getElementById("Reverseengineeringtut2");
       const scocialmedia = document.getElementById("scocialmedia");
+
+      const filetypes = document.getElementById("filetypes");
       const download = document.getElementById("download");
       const source = document.getElementById("source");
       // Important  here I put all these elements into an array, so that later I could loop over it and apply the necessary language settings
       const textElements = [mnu, home, pckstudio, arcstudio, msscmpstudio, texturetool, re1, re2, li1, li2, li3, li4, li5, li6, Reverseengineeringtut, about, aboutdesc, pckstudio3, arcstudio3, 
-	  msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, download, source];
+	  msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, filetypes, download, source];
 
 
 		console.log(document.getElementById("pckstudio1"));
