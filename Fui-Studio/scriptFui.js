@@ -6,6 +6,7 @@
           arcstudio: "ARC Studio",
           msscmpstudio: "MSSCMP Studio",
           texturetool: "Texture Builder Tool",
+coleditor: "COL Editor",
           fuistudio: "FUI Studio",
           fuistudio1: "FUI Studio",
           fuistudio2: "FUI Studio",
@@ -31,6 +32,7 @@
           arcstudio: "ARCスタジオ",
           msscmpstudio: "MSSCMPスタジオ",
           texturetool: "テクスチャビルダーツール",
+coleditor: "COLエディター",
           fuistudio: "FUIスタジオ",
           fuistudio1: "FUIスタジオ",
           fuistudio2: "FUIスタジオ",
@@ -58,6 +60,7 @@
       const fuistudio = document.getElementById("fuistudio");
       const msscmpstudio = document.getElementById("msscmpstudio");
       const texturetool = document.getElementById("texturetool");
+const coleditor = document.getElementById("coleditor");
       const fuistudio2 = document.getElementById("fuistudio2");
       const fuistudio1 = document.getElementById("fuistudio1");
       const Reverseengineeringtut = document.getElementById("Reverseengineeringtut");
@@ -73,7 +76,7 @@
       const filetypes = document.getElementById("filetypes");
       const download = document.getElementById("download");
       const source = document.getElementById("source");
-      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, fuistudio2, fuistudio1, Reverseengineeringtut, about, aboutdesc, pckstudio3, arcstudio3, 
+      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, coleditor, fuistudio2, fuistudio1, Reverseengineeringtut, about, aboutdesc, pckstudio3, arcstudio3, 
 	  msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, filetypes, download, source];
 
 

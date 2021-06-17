@@ -7,11 +7,10 @@
           fuistudio: "FUI Studio",
           msscmpstudio: "MSSCMP Studio",
           texturetool: "Texture Builder Tool",
-coleditor: "COL Editor",
-          arcstudio1: "ARC Studio",
-          arcstudio2: "ARC Studio",
+          coleditor: "COL Editor",
+          arcstudio1: "COL Editor",
+          arcstudio2: "COL Editor",
           Reverseengineeringtut: "Reverse Engineering",
-          arcstudio2desc: "Step into a new world, a new world of your own design. with ARC Studio you can have complete control of not just your text, but your GUI, your structures, do you want to download loads of community-made FUIs, LOCs, and structures? well now you can with my FUI, LOC, and NBT Center! by downloading ARC studio you aren't just downloading some random tool, you're setting in motion the next chapter of your life! a chapter filled with discovery, research, and enjoyment with friends and foes alike! no longer will you be constrained to the confines set by 4J Studios, but you will be forging a path of your own creation, one in which you hold the power to do as you wish.",
           about: "About.",
           aboutdesc: "Throughout my years as a Modder for Minecraft on the legacy consoles, I've learned much about the game itself as well as the consoles it runs on, because of this, combined with the fact that many creators have stopped modding either on legacy consoles, or completely, I have made it my mission to make tools that are both open source, and easy to use, to allow anyone, no matter how new, to dive in head first and make incredible mods.",
           pckstudio3: "PCK Studio",
@@ -33,8 +32,9 @@ coleditor: "COL Editor",
           msscmpstudio: "MSSCMPスタジオ",
           texturetool: "テクスチャビルダーツール",
 coleditor: "COLエディター",
-          arcstudio1: "ARCスタジオ",
-          arcstudio2: "ARCスタジオ",
+          coleditor: "COLエディター",
+          arcstudio1: "COLエディター",
+          arcstudio2: "COLエディター",
           Reverseengineeringtut: "リバースエンジニアリング",
           arcstudio2desc: "新しい世界、あなた自身のデザインの新しい世界に足を踏み入れてください。 ARC Studioを使用すると、テキストだけでなくGUI、構造を完全に制御できます。コミュニティで作成されたFUI、LOC、および構造を大量にダウンロードしますか？ これで、私のFUI、LOC、およびNBTセンターを使用できるようになりました。 ARCスタジオをダウンロードすることで、ランダムなツールをダウンロードするだけでなく、人生の次の章を開始できます。 発見、研究、そして友人や敵との楽しみに満ちた章！ 4J Studiosによって設定された制限に制約されることはなくなりますが、自分で作成したパスを作成します。このパスでは、必要に応じて実行することができます。",
 		  about: "約",
@@ -61,6 +61,7 @@ coleditor: "COLエディター",
 const coleditor = document.getElementById("coleditor");
       const arcstudio2 = document.getElementById("arcstudio2");
       const arcstudio1 = document.getElementById("arcstudio1");
+      const coleditor = document.getElementById("coleditor");
       const Reverseengineeringtut = document.getElementById("Reverseengineeringtut");
       const about = document.getElementById("about");
       const aboutdesc = document.getElementById("aboutdesc");
@@ -74,7 +75,7 @@ const coleditor = document.getElementById("coleditor");
       const filetypes = document.getElementById("filetypes");
       const download = document.getElementById("download");
       const source = document.getElementById("source");
-      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, coleditor, arcstudio2, arcstudio1, Reverseengineeringtut, arcstudio2desc, about, aboutdesc, pckstudio3, arcstudio3, 
+      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, coleditor, arcstudio2, arcstudio1, coleditor, Reverseengineeringtut, arcstudio2desc, about, aboutdesc, pckstudio3, arcstudio3, 
 	  msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, filetypes, download, source];
 
 

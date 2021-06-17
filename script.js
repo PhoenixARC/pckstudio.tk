@@ -8,6 +8,7 @@
           fuistudio: "FUI Studio",
           msscmpstudio: "MSSCMP Studio",
           texturetool: "Texture Builder Tool",
+coleditor: "COL Editor",
           pckstudio2: "PCK Studio",
           arcstudio2: "ARC Studio",
           msscmpstudio2: "MSSCMP Studio",
@@ -46,6 +47,7 @@
           fuistudio: "FUIスタジオ",
           msscmpstudio: "MSSCMPスタジオ",
           texturetool: "テクスチャビルダーツール",
+coleditor: "COLエディター",
           pckstudio2: "PCKスタジオ",
           arcstudio2: "ARCスタジオ",
           msscmpstudio2: "MSSCMPスタジオ",
@@ -86,6 +88,7 @@
       const fuistudio = document.getElementById("fuistudio");
       const msscmpstudio = document.getElementById("msscmpstudio");
       const texturetool = document.getElementById("texturetool");
+const coleditor = document.getElementById("coleditor");
       const pckstudio2 = document.getElementById("pckstudio2");
       const arcstudio2 = document.getElementById("arcstudio2");
       const msscmpstudio2 = document.getElementById("msscmpstudio2");
@@ -117,7 +120,7 @@
       const devmessage = document.getElementById("devmessage");
       const joinButton = document.getElementById("joinButton");
       // Important  here I put all these elements into an array, so that later I could loop over it and apply the necessary language settings
-      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, pckstudio2, arcstudio2, msscmpstudio2, texturetool2, Reverseengineeringtut, description, softwareheader, softwareheader2, pckstudio2desc, arcstudio2desc, msscmpstudio2desc, msscmpstudio2desc2, msscmpstudio2desc3, texturetool2desc, development, developmentdesc, reviews, reviewex, about, aboutdesc, pckstudio3, arcstudio3, msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, filetypes, devmessage, joinButton];
+      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, coleditor, pckstudio2, arcstudio2, msscmpstudio2, texturetool2, Reverseengineeringtut, description, softwareheader, softwareheader2, pckstudio2desc, arcstudio2desc, msscmpstudio2desc, msscmpstudio2desc2, msscmpstudio2desc3, texturetool2desc, development, developmentdesc, reviews, reviewex, about, aboutdesc, pckstudio3, arcstudio3, msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, filetypes, devmessage, joinButton];
 
 
 		console.log(document.getElementById("mnu"));

@@ -7,6 +7,7 @@
           fuistudio: "FUI Studio",
           msscmpstudio: "MSSCMP Studio",
           texturetool: "Texture Builder Tool",
+coleditor: "COL Editor",
           Reverseengineeringtut: "Reverse Engineering",
           about: "About.",
           aboutdesc: "Throughout my years as a Modder for Minecraft on the legacy consoles, I've learned much about the game itself as well as the consoles it runs on, because of this, combined with the fact that many creators have stopped modding either on legacy consoles, or completely, I have made it my mission to make tools that are both open source, and easy to use, to allow anyone, no matter how new, to dive in head first and make incredible mods.",
@@ -44,6 +45,7 @@
           fuistudio: "FUIスタジオ",
           msscmpstudio: "MSSCMPスタジオ",
           texturetool: "テクスチャビルダーツール",
+coleditor: "COLエディター",
           Reverseengineeringtut: "リバースエンジニアリング",
           about: "約",
           aboutdesc: "レガシーコンソールでMinecraftのModderとして働いていた数年間、ゲーム自体とそれが実行されるコンソールについて多くのことを学びました。これは、多くのクリエイターがレガシーコンソールでの改造をやめたという事実と相まって、 または完全に、私はオープンソースで使いやすいツールを作成することを使命としており、どんなに新しくても、誰もが最初に頭に飛び込んで信じられないほどの改造を行うことができます。",
@@ -82,6 +84,7 @@
       const fuistudio = document.getElementById("fuistudio");
       const msscmpstudio = document.getElementById("msscmpstudio");
       const texturetool = document.getElementById("texturetool");
+const coleditor = document.getElementById("coleditor");
       const Reverseengineeringtut = document.getElementById("Reverseengineeringtut");
       const about = document.getElementById("about");
       const aboutdesc = document.getElementById("aboutdesc");
@@ -111,7 +114,7 @@
       const loc = document.getElementById("loc");
       const msscmp = document.getElementById("msscmp");
       const binka = document.getElementById("binka");
-      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, Reverseengineeringtut, about, aboutdesc, pckstudio3, arcstudio3, 
+      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, coleditor, Reverseengineeringtut, about, aboutdesc, pckstudio3, arcstudio3, 
 	  msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, filetypes, filetypes1, filetypes2, filetypes3, arc, png, ttf, txt, xml, bin, col, pck, mcs, grf, fui, nbt, loc, msscmp, binka];
 
 

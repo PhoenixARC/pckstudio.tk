@@ -8,6 +8,7 @@
           fuistudio: "FUI Studio",
           msscmpstudio: "MSSCMP Studio",
           texturetool: "Texture Builder Tool",
+coleditor: "COL Editor",
           pckstudio1: "PCK Studio",
           pckstudio2: "PCK Studio",
           Reverseengineeringtut: "Reverse Engineering",
@@ -32,6 +33,7 @@
           fuistudio: "FUIスタジオ",
           msscmpstudio: "MSSCMPスタジオ",
           texturetool: "テクスチャビルダーツール",
+coleditor: "COLエディター",
           pckstudio1: "PCKスタジオ",
           pckstudio2: "PCKスタジオ",
           Reverseengineeringtut: "リバースエンジニアリング",
@@ -58,6 +60,7 @@
       const fuistudio = document.getElementById("fuistudio");
       const msscmpstudio = document.getElementById("msscmpstudio");
       const texturetool = document.getElementById("texturetool");
+const coleditor = document.getElementById("coleditor");
       const pckstudio2 = document.getElementById("pckstudio2");
       const pckstudio1 = document.getElementById("pckstudio1");
       const Reverseengineeringtut = document.getElementById("Reverseengineeringtut");
@@ -74,7 +77,7 @@
       const download = document.getElementById("download");
       const source = document.getElementById("source");
       // Important  here I put all these elements into an array, so that later I could loop over it and apply the necessary language settings
-      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, pckstudio2, pckstudio1, Reverseengineeringtut, pckstudio2desc, about, aboutdesc, pckstudio3, arcstudio3, 
+      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, coleditor, pckstudio2, pckstudio1, Reverseengineeringtut, pckstudio2desc, about, aboutdesc, pckstudio3, arcstudio3, 
 	  msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, filetypes, download, source];
 
 
