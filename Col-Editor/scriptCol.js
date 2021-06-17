@@ -31,7 +31,6 @@
           fuistudio: "FUIスタジオ",
           msscmpstudio: "MSSCMPスタジオ",
           texturetool: "テクスチャビルダーツール",
-coleditor: "COLエディター",
           coleditor: "COLエディター",
           arcstudio1: "COLエディター",
           arcstudio2: "COLエディター",
@@ -58,7 +57,6 @@ coleditor: "COLエディター",
       const fuistudio = document.getElementById("fuistudio");
       const msscmpstudio = document.getElementById("msscmpstudio");
       const texturetool = document.getElementById("texturetool");
-const coleditor = document.getElementById("coleditor");
       const arcstudio2 = document.getElementById("arcstudio2");
       const arcstudio1 = document.getElementById("arcstudio1");
       const coleditor = document.getElementById("coleditor");
@@ -75,7 +73,7 @@ const coleditor = document.getElementById("coleditor");
       const filetypes = document.getElementById("filetypes");
       const download = document.getElementById("download");
       const source = document.getElementById("source");
-      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, coleditor, arcstudio2, arcstudio1, coleditor, Reverseengineeringtut, arcstudio2desc, about, aboutdesc, pckstudio3, arcstudio3, 
+      const textElements = [mnu, home, pckstudio, arcstudio, fuistudio, msscmpstudio, texturetool, arcstudio2, arcstudio1, coleditor, Reverseengineeringtut, arcstudio2desc, about, aboutdesc, pckstudio3, arcstudio3, 
 	  msscmpstudio3, texturetool3, Reverseengineeringtut2, scocialmedia, filetypes, download, source];
 
 
