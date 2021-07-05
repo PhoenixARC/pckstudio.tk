@@ -16,5 +16,10 @@
 		<FileExistsCondition type="not" />
 	  </Conditions>
 	</FileUpdateTask>
+	<FileUpdateTask localPath="/Data/FuiIMGData_Enc.db">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
   </Tasks>
 </Feed>
