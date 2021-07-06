@@ -21,3 +21,7 @@
  
 [04/07/2021] 1.5
  - Introduced new Image naming system[incomplete]
+ 
+[06/07/2021] 1.6
+ - Program now checks with an online copy of the database to automatically update it.
+ - Added Japanese translations
