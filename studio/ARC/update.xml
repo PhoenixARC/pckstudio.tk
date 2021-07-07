@@ -16,6 +16,21 @@
 		<FileExistsCondition type="not" />
 	  </Conditions>
 	</FileUpdateTask>
+	<FileUpdateTask localPath="/FUIEditor/en/FUI Studio.resources.dll">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/FUIEditor/ja/FUI Studio.resources.dll">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
+	<FileUpdateTask localPath="/FUIEditor/Data/FuiIMGData_Enc.db">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
 	<FileUpdateTask localPath="/NBTEditor/NBTExplorer.exe">
 	  <Conditions>
 		<FileExistsCondition type="not" />
