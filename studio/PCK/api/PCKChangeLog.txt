@@ -1,4 +1,8 @@
-5.6
+5.7
+ -  Added texture converter
+ -  Added New Icon
+ 
+ 5.6
  -  Fixed WiiU Skin Installer
  -  Added COL Editor
  
