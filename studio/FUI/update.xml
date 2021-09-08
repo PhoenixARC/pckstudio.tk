@@ -31,5 +31,10 @@
 		<FileExistsCondition type="not" />
 	  </Conditions>
 	</FileUpdateTask>
+	<FileUpdateTask localPath="/settings.ini">
+	  <Conditions>
+		<FileExistsCondition type="not" />
+	  </Conditions>
+	</FileUpdateTask>
   </Tasks>
 </Feed>
