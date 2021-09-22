@@ -1,4 +1,7 @@
-5.8
+5.9
+ -  Turned off developer mode
+ 
+ 5.8
  -  Fixed Issue extracting Skins
  
  5.7
