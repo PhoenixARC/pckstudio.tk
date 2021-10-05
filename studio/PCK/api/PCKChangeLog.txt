@@ -1,4 +1,9 @@
-5.9
+6.0
+ -  Moved to new domain
+ -  Fixed Discord RPC Focusing
+ -  Fixed offline server breaking PCK Studio
+ 
+ 5.9
  -  Turned off developer mode
  
  5.8
