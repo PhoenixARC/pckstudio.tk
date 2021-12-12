@@ -1,4 +1,7 @@
-6.1
+6.2
+ -  smaller monitors now supported
+ 
+ 6.1
  -  Added PSVita/PS4 PCK Support for PCK Center
  
  6.0
