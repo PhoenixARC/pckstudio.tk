@@ -1,4 +1,7 @@
-6.2
+6.3
+ -  Fixed Unathorized server access
+ 
+ 6.2
  -  smaller monitors now supported
  
  6.1
