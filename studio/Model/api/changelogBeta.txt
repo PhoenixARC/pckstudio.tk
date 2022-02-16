@@ -3,3 +3,5 @@
 - 0.2 [02/15/2022]
    > New updating method
    > Export Model to CSM
+- 0.3 [02/15/2022]
+   > Fixed Updating method
