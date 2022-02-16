@@ -8,3 +8,6 @@
    > Added bug report option
    > Added source code view option
    > Added Change log view option
+- 0.4 [02/15/2022]
+   > Fixed bug when user cancels file opening
+   > Added File Drag-n-drop
