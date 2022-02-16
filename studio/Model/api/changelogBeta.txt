@@ -1,0 +1,5 @@
+- 0.1 [02/09/2022]
+   > Initial Beta Release
+- 0.2 [02/15/2022]
+   > New updating method
+   > Export Model to CSM
