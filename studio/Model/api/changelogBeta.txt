@@ -5,3 +5,6 @@
    > Export Model to CSM
 - 0.3 [02/15/2022]
    > Fixed Updating method
+   > Added bug report option
+   > Added source code view option
+   > Added Change log view option
