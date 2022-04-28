@@ -1,4 +1,18 @@
-6.3
+6.4
+ -  Rename/Clone functionality added
+ -  Audio.pck editor
+ -  Added a Drag and Drop feature to the main file tree
+ -  Rename function now properly works with folders
+ -  Fixed the Edit LOC button from appearing on folders and non files
+ -  Added an "Edit Colors" button for .col files
+ -  Improved Color Editor
+ -  Fixed Add Display ID in the LOC Editor
+ -  Added a Rename Display ID in the LOC Editor
+ - LOC Editor swapped to UTF-8
+ - fixed bug dealing with Drag-and-drop
+ - Added animation editor
+ 
+ 6.3
  -  Fixed Unathorized server access
  
  6.2

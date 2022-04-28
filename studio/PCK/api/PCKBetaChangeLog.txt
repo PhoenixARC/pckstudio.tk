@@ -1,4 +1,9 @@
-6.4 [BETA] 
+6.4 [RELEASE] 
+ - LOC Editor swapped to UTF-8
+ - fixed bug dealing with Drag-and-drop
+ - Added animation editor
+ 
+ 6.4 [BETA] 
  -  Rename/Clone functionality added
  -  Audio.pck editor
  -  Added a Drag and Drop feature to the main file tree
