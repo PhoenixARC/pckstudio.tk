@@ -2,6 +2,12 @@
  - LOC Editor swapped to UTF-8
  - fixed bug dealing with Drag-and-drop
  - Added animation editor
+ - "Move Up" and "Move Down" functions finally work properly and with folders!
+ - Animation Editor can import Java block and item animations
+ - Animation Editor has a built-in Change Tile function where every single block and item that can be animated is listed (clock and compass are excluded since they have animations based on game data). When selected, it will automatically set your animation to that tile for you. If a required folder is missing, the function will create the folder for you and place the file inside. Happy animating! (:
+ - Removed the old "Create Animated Texture" function and replaced it with the new Animation Editor
+ - Moved the Audio Editor and Animation Editor into their own folders in the Utilities folder to keep things a little more organized in the solution.
+ - Added JSON Importer to Model Generator
  
  6.4 [BETA] 
  -  Rename/Clone functionality added
