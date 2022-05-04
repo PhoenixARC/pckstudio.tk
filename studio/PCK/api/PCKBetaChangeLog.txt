@@ -1,4 +1,20 @@
-6.4 [RELEASE] 
+6.5 [RELEASE]
+ - Audio Editor has been renamed to the Music Editor
+ - Music Editor now works with PSVita and PS4 files!
+ - Added a drag and drop feature for Binka files to the Music Editor to allow for efficient playlist building.
+ - You can now create a fresh Audio.pck file by using the "Create audio.pck" function, and this also includes PS4 and Vita!
+ - The categories in the Music Editor now sort themselves by category ID
+ - The categories in the Music Editor now have icons
+ - The Animation Editor now plays animations more accurately to how they will appear in game
+ - Added MipMap support to the Animation Editor, so you can now set whether it is MipMapped or not and what level it is.
+ - Added some text to display the common name of the animation that you're editing to help keep track of your animations.
+ - Fixed several incorrect internal names for the change tile list for the following tiles: Crafting Table (front), Crafting Table (side), Torch, Stem, Repeater, Powered Rail, All of the Stained Glass Panes, Allium, Chorus Plant, Double Tall Seagrass, Repeater (Item), Written Book, Flower Pot (Item), Dark Oak Door (Item), Jungle Door (Item)
+ - Added a few new internal names to the change tile list: Conduit (break particles), Chest (break particles), Ender Chest (Break Particles)
+ - Removed Barrier (Item) from the Change Tile list
+ - Clicking "Cancel" in the Change Tile dialog without choosing a tile will no longer overwrite the original tile's name with nothing.
+ - Clicking "Cancel" in the Change Tile dialog while using the "Create Animated Texture" function will no longer create a file with no name.
+ - Stained Glass tiles are now displayed as "<color> Stained Glass" instead of "<color> Glass" in the Change Tile list
+ 6.4 [RELEASE] 
  - LOC Editor swapped to UTF-8
  - fixed bug dealing with Drag-and-drop
  - Added animation editor
