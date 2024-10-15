@@ -1,44 +1,28 @@
+///
+/// Stellar by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
 /* List */
 
 	ol {
 		list-style: decimal;
 		margin: 0 0 _size(element-margin) 0;
-		padding-left: 1.25rem;
+		padding-left: 1.25em;
 
 		li {
-			padding-left: 0.25rem;
+			padding-left: 0.25em;
 		}
 	}
 
 	ul {
 		list-style: disc;
 		margin: 0 0 _size(element-margin) 0;
-		padding-left: 1rem;
+		padding-left: 1em;
 
 		li {
-			padding-left: 0.325rem;
-		}
-
-		&.plain {
-			list-style: none;
-			padding-left: 0;
-
-			li {
-				margin-bottom: 1rem;
-
-				.icon {
-					border-radius: _size(border-radius);
-					color: _palette(accent1,fg-bold);
-					display: inline-block;
-					margin-right: 1rem;
-					text-align:center;
-					width: 2rem;
-					height: 2rem;
-					line-height: 2rem;
-					background: rgba(0,0,0,0.5);
-				}
-
-			}
+			padding-left: 0.5em;
 		}
 
 		&.alt {
@@ -47,15 +31,11 @@
 
 			li {
 				border-top: solid 1px;
-				padding: 0.75rem 0;
+				padding: 0.5em 0;
 
 				&:first-child {
 					border-top: 0;
 					padding-top: 0;
-				}
-
-				&:last-child {
-					padding-bottom: 0;
 				}
 			}
 		}
@@ -71,7 +51,27 @@
 		}
 
 		dd {
-			margin-left: (_size(element-margin) * 0.75);
+			margin-left: _size(element-margin);
+		}
+
+		&.alt {
+			dt {
+				display: block;
+				width: 3em;
+				margin: 0;
+				clear: left;
+				float: left;
+			}
+
+			dd {
+				margin: 0 0 0.85em 5.5em;
+			}
+
+			&:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
 		}
 	}
 
@@ -81,6 +81,12 @@
 				li {
 					border-top-color: _palette($p, border);
 				}
+			}
+		}
+
+		dl {
+			dt {
+				color: _palette($p, fg-bold);
 			}
 		}
 	}
